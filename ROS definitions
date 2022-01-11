@@ -1,0 +1,5 @@
+ROS node - Standalone executable specific in terms of its functionality
+ROS topic - Channel (namespace) over which a node can put (publish) or retrieve (subscribe) data over. 
+ROS message - data structure for a topic. Different topics can use the message type.
+ROS service - 
+ROS package - organize nodes, services, message together in a package.
