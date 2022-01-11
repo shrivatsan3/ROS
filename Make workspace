@@ -1,0 +1,10 @@
+mkdir -p catkin_ws/src          //create the directory
+cd catkin_ws/src                // navigate inside src folder
+catkin_init_workspace           //command to tell ROS that this folder is a ROS folder
+cd ~/catkin_ws
+catkin_make                     // build file
+
+
+*important 
+need to source workspace directory. telling os this folder also has ros stuff
+source catkin_ws/devel/setup.sh
