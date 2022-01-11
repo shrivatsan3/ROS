@@ -1,0 +1,4 @@
+Communication between nodes:-
+Publisher-Subscriber model
+Nodes publish messages over a channel. Publishing and Subscribing is asynchronous in the sense that publishers and subscribers publish/subsrcribe at different frequencies.
+Subscribers are event triggered and there is no acknowledgement of data reception to the publisher.
