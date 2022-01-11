@@ -1,0 +1,8 @@
+Basic ROS commands:-
+
+roscore - start ROS master.
+rosrun - execute a package node. rosrun <package name> <node name>
+rosnode - get info of nodes. rosnode info is probably the one you'll use the most.
+rostopic - get stuff about the topic. rostopic echo and rostopic list are some useful commands.
+rosmsg - get stuff about the message.
+rosservice - 
