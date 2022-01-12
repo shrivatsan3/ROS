@@ -1,0 +1,21 @@
+-navigate to src folder
+
+cd catkin_ws/src
+
+- use create_catkin_pkg <package name> <dependent package>
+
+create_catkin_pkg beginner_tutorial std_msgs rospy roscpp
+
+- go to root
+
+cd ~/catkin_ws
+
+- build the workspace. This will update the bash file
+
+catkin_make
+
+- source updated bash 
+
+. ~/catkin_ws/devel/setup.bash
+
+rospack profile
