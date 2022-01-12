@@ -12,3 +12,9 @@ source catkin_ws/devel/setup.sh
 //to add the source to bash
 echo "source catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
+
+// to declare python files as executable
+// go to root folder
+
+cd ~/catkin_ws
+find . -name ".py" -exec chmod + {} \;
