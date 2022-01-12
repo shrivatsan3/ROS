@@ -8,3 +8,7 @@ catkin_make                     // build file
 *important 
 need to source workspace directory. telling os this folder also has ros stuff
 source catkin_ws/devel/setup.sh
+
+//to add the source to bash
+echo "source catkin_ws/devel/setup.bash" >> ~/.bashrc
+source ~/.bashrc
