@@ -5,6 +5,11 @@ Created on Wed Jan 12 10:57:36 2022
 @author: shriv
 """
 
+
+#this code probably wont work. Its purpose is to demonstrate
+# and give an idea on how a ROS publisher is written and executed.
+#create your own package and workspace to make it work.
+
 import rospy 
 from std_msg.msgs import Strings #rospy takes msg file specified in the 
                                  # CMakeLists.txt file and generates python
