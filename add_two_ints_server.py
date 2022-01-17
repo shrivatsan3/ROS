@@ -20,7 +20,7 @@ def service_handle(req):
     
     # AddTwoIntsResponse service class will allocate the result of
     # req.a+req.b to the sum field.
-    
+        return AddTwoIntsResponse(req.a + req.b)
     # remember on running catkin_make, three service classes are created,
     #AddTwoInts
     #AddTwoIntsRequest
