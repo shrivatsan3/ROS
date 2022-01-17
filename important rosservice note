@@ -1,0 +1,7 @@
+while writing a server or publisher, a custom service data type is used.
+Therefore it is important to build and execution dependencies in the package.xml file.
+this tells catkin or ros to create the dependencies (the three clasees), during the build process and used during run time.
+
+Also add the .srv file to the CMakeLists.txt file.
+this is how catkin knows where to look for the file and what is the name of the custom service.
+
