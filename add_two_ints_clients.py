@@ -18,6 +18,7 @@ def add_two_clients(x, y):
     rospy.wait_for_service('add_two_ints')
     # Checking if this service is available
     add_two_ints = rospy.ServiceProxy('add_two_ints', AddTwoInts)
+    # ServiceProxy is the python API to invoke a service request
     # 'add_two_ints' is the name of the service to be made 
     # and AddTwoInts is the name of the service class
     # add_two_ints is the handle I will use for the service
