@@ -4,7 +4,7 @@ catkin_ws
   -src  // All packages and executables go in here
       -package 1
         -CMakeLists.txt // build files
-        -package.zml // info about the package
+        -package.xml // info about the package
         -src folder // put all executables here
-        -inlcude folder // for header files in case of c++
+        -include folder // for header files in case of c++
         -unit test folder
