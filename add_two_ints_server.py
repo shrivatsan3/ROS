@@ -15,11 +15,13 @@ import rospy
 def service_handle(req):
     
     return AddTwoIntsResponse(req.a+req.b)
+    # ROS automatically passes req (which is an object of the response class) to the specified service function handle
     # I know the definition of the service class
     # Therefore I know the fields a and b of the service class
     
     # AddTwoIntsResponse service class will allocate the result of
     # req.a+req.b to the sum field.
+    # ROS automatically knows the Response API, which is AddTwoIntsResponse()
         return AddTwoIntsResponse(req.a + req.b)
     # remember on running catkin_make, three service classes are created,
     #AddTwoInts
