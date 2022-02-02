@@ -22,8 +22,9 @@ def add_two_clients(x, y):
     # 'add_two_ints' is the name of the service to be made 
     # and AddTwoInts is the name of the service class
     # add_two_ints is the handle I will use for the service
+    #add_two_ints is request object
     
-    response = add_two_ints(x,y)
+    response = add_two_ints(x,y) # I know that the request object has two fields from service class definition
     return response.sum
     # I know that response has a field called sum from the service 
     # class definition
